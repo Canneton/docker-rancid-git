@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.18
 
 # Use less to view man-pages since busybox `more' lacks the -s option.
 ENV PAGER=less
@@ -8,8 +8,8 @@ RUN apk add --no-cache \
       bash \
       expect \
       git \
-      man man-pages \
-      mdocml-apropos \
+      mandoc man-pages \
+      mandoc-apropos \
       openssh-client \
       perl \
       perl-socket6 \
