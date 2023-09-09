@@ -15,6 +15,7 @@ RUN apk add --no-cache \
       perl-socket6 \
       rancid \
       rancid-doc \
+      subversion \
       && \
     :
 
