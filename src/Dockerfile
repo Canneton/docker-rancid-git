@@ -13,6 +13,7 @@ RUN apk add --no-cache \
       openssh-client \
       perl \
       perl-socket6 \
+      python3 \
       rancid \
       rancid-doc \
       subversion \
